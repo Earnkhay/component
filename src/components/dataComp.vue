@@ -1,17 +1,19 @@
 <template>
-    <h1>{{ msg }}</h1>
+  
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
+// import { Dataset } from 'vue-dataset'
 
 @Options({
-  props: {
-    msg: String
-  }
+
 })
-export default class HelloWorld extends Vue {
-  msg!: string
+export default class dataComp extends Vue {
+
 }
 </script>
 
+<style>
+
+</style>
